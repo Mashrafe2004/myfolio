@@ -1,0 +1,253 @@
+/* *COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none ;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+
+.align-center{
+       align-items: center;
+}
+
+
+.btn{
+   background-color: #cfc91d;
+    color: #0b1016;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 19px 43px;
+    display: inline-block;
+    border: none;
+}
+
+
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    font-size: 46px;
+    color: #02918c;
+    font-weight: 800;
+}
+
+.heading p{
+    font-size: 16px;
+    color: #7e8287;
+}
+
+
+
+/* *COMMON CSS END */
+
+
+/* * NAV STARTS */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+nav .menu ul li {
+    display: inline-block;
+}
+nav .menu ul li a{
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+}
+
+/* * NAV ENDS */
+
+
+/* BANNER STARTS HERE */
+
+#banner{
+    background-image: url(../Img/banner\ \(1\).jpg);
+    background-color: rgba(0, 0, 0, 0.34);
+    background-blend-mode: multiply ;
+    width: 100%;
+    height: 725px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#banner .container{
+    height: 100%;
+
+}
+#banner .row{
+    height: 100%;
+}
+
+.banner_cnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+.banner_cnt h4{
+    font-weight: 400;
+    font-size: 30px;
+}
+.banner_cnt h1{
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+.banner_cnt img{
+    margin: 52px 0;
+}
+
+.banner_cnt a{
+ 
+}
+
+
+/* BANNER ENDS HERE */
+
+
+/* *ABOUT STARTS */
+#about{
+    padding: 98px 0;
+}
+.tex{
+    text-align: center;
+    font-size: 16px;
+    color: #817d7d;
+}
+ span{
+    font-weight: 800;
+    font-size: 23px;
+ }
+.about_card{
+    width: 25%;
+    text-align: center;
+    margin-top: 60px;
+    border-right: 2px solid rgba(201, 200, 200, 0.76);
+    padding: 40px 0;
+}
+.about_card:last-child{
+    border: none;
+}
+
+
+.about_card span{
+    color: #02918c;
+    font-size: 35px;
+}
+
+.about_card h4{
+    font-weight: 800;
+    font-size: 17px;
+    color: #7e8287;
+    padding: 29px 0;
+}
+
+.about_card p {
+    font-weight: 400;
+    font-size: 11px;
+    color: #7e8287;
+}
+
+
+/* *ABOUT ENDS */
+#work {
+    padding: 98px 0;
+}
+
+#work .work_card{
+    width: 25%;
+    position: relative;
+  
+}
+
+#work .work_card img{
+    width: 100%;
+    display: block;
+}
+
+
+.work_card .overlay{
+    background-color: rgba(2, 145, 140, 0.85);
+    position: absolute;
+   inset:20px;
+   color: white;
+   text-align: center;
+   padding-top: 50px;
+   transform: scale(0);
+   transition: 0.35s;
+   opacity: 0;
+}
+
+
+.work_card:hover .overlay{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+#contact{
+    background-color: #0a0a0b;
+    padding: 70px 0;
+    text-align: center;
+}
+
+
+#contact input{
+    width: 640px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+    padding: 10px;
+    outline: none;
+}
+
+#contact input:focus{
+    border-color: red;
+}
+h3{
+    font-size: 15px;
+}
+#work a{
+    color: #fef609;
+}
